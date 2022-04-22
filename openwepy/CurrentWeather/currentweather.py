@@ -51,3 +51,17 @@ class current_weather:
     def get_temprature(self, response_json: dict, key: str):
         temprature_dict = response_json["main"]
         return temprature_dict[key]
+
+
+    # wind keys
+    @property
+    def wind_speed(self):
+        return "speed"
+
+    @property
+    def wind_degree(self):
+        return "deg"
+
+    def get_wind(self, response_json: dict, key: str):
+        wind_dict = response_json["wind"]
+        return wind_dict[key]
