@@ -135,7 +135,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-gcwingo is distributed under MIT license.
+openwepy is distributed under MIT license.
 
 for more information:
 [MIT](https://choosealicense.com/licenses/mit/)
